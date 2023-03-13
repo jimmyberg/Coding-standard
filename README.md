@@ -37,10 +37,10 @@ Another thing, anyting below a label is _not_ a new scope, so no indentation nee
 Do
 ```C++
 switch(var){
-	label1:
+	case label1:
 	//code
 	break;
-	label2:
+	case label2:
 	//code
 	break;
 };
@@ -48,10 +48,10 @@ switch(var){
 don't
 ```C++
 switch(var){
-	label1:
+	case label1:
 		//code
 		break;
-	label2:
+	case label2:
 		//code
 		break;
 };
@@ -60,10 +60,10 @@ You may put a label one tab back, which makes it more readable.
 Better:
 ```C++
 switch(var){
-label1:
+case label1:
 	//code
 	break;
-label2:
+case label2:
 	//code
 	break;
 };
