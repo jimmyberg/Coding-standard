@@ -88,7 +88,7 @@ A private member starts with `_`. The idea is that a user of a library rarely ha
 class MyClass{
 public:
 	void function1();
-pivate:
+private:
 	void _function2();
 };
 
